@@ -1,4 +1,5 @@
 DROP TABLE netflix;
+DROP TABLE disney_plus;
 
 CREATE TABLE netflix (
 id INT,
@@ -19,3 +20,4 @@ release_year INT
 );
 
 select * from netflix
+select * from disney_plus
