@@ -1,5 +1,6 @@
-DROP TABLE netflix;
-DROP TABLE disney_plus;
+DROP TABLE if exists netflix;
+DROP TABLE if exists disney_plus;
+DROP TABLE if exists all_movies;
 
 CREATE TABLE netflix (
 id INT,
@@ -8,8 +9,7 @@ director TEXT,
 movie_cast TEXT,
 country TEXT,
 release_year INT,
-rating VARCHAR
-);
+rating VARCHAR);
 
 CREATE TABLE disney_plus (
 id INT,
