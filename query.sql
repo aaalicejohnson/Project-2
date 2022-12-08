@@ -9,8 +9,7 @@ director TEXT,
 movie_cast TEXT,
 country TEXT,
 release_year INT,
-rating VARCHAR
-);
+rating VARCHAR);
 
 CREATE TABLE disney_plus (
 id INT,
