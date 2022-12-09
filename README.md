@@ -18,7 +18,7 @@ We utilized a for loop to fetch the supplemental movie data from the API. Due to
  
 After retrieving the supplemental movie data from the API specific to our Netflix and Disney+ movie titles, we merged the original dataframe from the Kaggle dataset with the dataframe from the API call for each platform. After the merging process, the dataframes had all of the data we hoped to analyze for each platform. We added the column “streaming” for both Netflix and Disney+ dataframes, listing the platform name as an identifier. We saved our dataframes in .csv format and focused next on merging the Disney+ and Netflix data.
  
-We concatenated our Netflix and Disney+ dataframes, and double checked for duplicates using movie_id. We removed all movie duplicates between the two streaming platforms. 
+We concatenated our Netflix and Disney+ dataframes, and checked for duplicates using movie_id to understand if there were identical movie titles between the two streaming platforms. 
  
 We saved our Netflix and Disney+ combined movie data in a .csv and began the process of analyzing our data for insights.
 
