@@ -48,6 +48,9 @@ Our total movie dataset included **6,749** movies. **85%** of the movies extract
 
 From our data, we found that Netflix had a total of **633** movies available to stream with a release year of 2019. The number of movies with a release year of 2020 had fewer titles to stream, a total of **517**. For the release year of 2021, Netflix only had a total of **277** movies available to stream.
 
-## Database Loading and Learnings for the Future
+## Database Loading and Structure
 
+Three tables were created in pgAdmin under the “movies” database: the “all_movies” table which contains all the movies from both platforms plus the expanded information from the API calls, the “netflix” movies table, and the “disney” movies table. The primary key for each table was the movie title. After the tables were created, we formatted each csv to fit our tables by loading them into pandas dataframes and then into the database tables using pandas “to_sql” function. 
 
+![sqldb](https://user-images.githubusercontent.com/112960489/206597415-66fe0a3e-9a08-40c5-b451-c97835363414.png)
+9e4-73e52c794b05.png)
