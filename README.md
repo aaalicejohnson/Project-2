@@ -53,4 +53,3 @@ From our data, we found that Netflix had a total of **633** movies available to 
 Three tables were created in pgAdmin under the “movies” database: the “all_movies” table which contains all the movies from both platforms plus the expanded information from the API calls, the “netflix” movies table, and the “disney” movies table. The primary key for each table was the movie title. After the tables were created, we formatted each csv to fit our tables by loading them into pandas dataframes and then into the database tables using pandas “to_sql” function. 
 
 ![sqldb](https://user-images.githubusercontent.com/112960489/206597415-66fe0a3e-9a08-40c5-b451-c97835363414.png)
-9e4-73e52c794b05.png)
