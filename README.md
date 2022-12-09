@@ -24,12 +24,30 @@ We saved our Netflix and Disney+ combined movie data in a .csv and began the pro
 
 ### Netflix Movies
 
+![neflix](https://user-images.githubusercontent.com/112960489/206596118-c36d193d-49b7-4d6a-8ddc-d6660707d3ab.png)
+
 ### Disney Movies
+
+![disneyplus](https://user-images.githubusercontent.com/112960489/206596138-760c2df3-1fd9-4f8e-99e4-73e52c794b05.png)
 
 ### Final List
 
+![allmovies](https://user-images.githubusercontent.com/112960489/206596135-ab837f70-2617-4e1d-9fea-7b22b0fe4401.png)
+
 ## Data Analysis
 
-To analyze the ratings of movies by platform, we standardized ratings listed by following the MPAA rating system created by the Motion Picture Association of America and the National Association of Theatre Owners (G, PG, PG-13, R). We renamed values within the dataframe to reflect the respective level of parental guidance and age restricted content. After standardizing the ratings across Netflix and Disney+ movies, we used the pandas groupby function to retrieve the count of ratings by streaming platform.
+To analyze the ratings of movies by platform, we standardized ratings listed by following the [MPAA rating system](http://motionpictures.org/film-ratings/) created by the Motion Picture Association of America and the National Association of Theatre Owners (G, PG, PG-13, R). We renamed values within the dataframe to reflect the respective level of parental guidance and age restricted content. After standardizing the ratings across Netflix and Disney+ movies, we used the pandas groupby function to retrieve the count of ratings by streaming platform.
 
 We also transformed our data to reflect the number of movies per streaming platform by release year. 
+
+## Data Findings
+
+There were **434** duplicates amongst the movie titles pulled in our merged Netflix and Disney+ dataset. The relatively low number of duplicates is representative of today’s media landscape which features a large variety of streaming platforms, all pushing proprietary content as their unique value proposition. 
+
+Our total movie dataset included **6,749** movies. **85%** of the movies extracted from the data were available to stream on Netflix, versus **15%** available to stream on Disney+. On Netflix, we found that **48%** of all movies were rated R (Restricted). Movies rated R were followed by **31%** of movies rated PG-13 (Parents Strongly Cautioned). In comparison, Disney+ movies were split at **46%** rated G (General Audiences) and **44%** rated PG (Parental Guidance Suggested). A small percentage of the Disney+ movies analyzed (**10%**) had a rating of PG-13.
+
+From our data, we found that Netflix had a total of **633** movies available to stream with a release year of 2019. The number of movies with a release year of 2020 had fewer titles to stream, a total of **517**. For the release year of 2021, Netflix only had a total of **277** movies available to stream.
+
+## Database Loading and Learnings for the Future
+
+
