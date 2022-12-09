@@ -32,7 +32,7 @@ We saved our Netflix and Disney+ combined movie data in a .csv and began the pro
 
 ### Final List
 
-![allmovies](https://user-images.githubusercontent.com/112960489/206596135-ab837f70-2617-4e1d-9fea-7b22b0fe4401.png)
+![Final_list](https://user-images.githubusercontent.com/112193116/206604365-71337501-e43e-41d2-ab01-e88626bb4e6a.png)
 
 ## Data Analysis
 
